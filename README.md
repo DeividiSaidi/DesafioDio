@@ -82,8 +82,8 @@ DELETE /alunos/delete/{id}
 
 - Criar uma nota para um aluno
 ```http request
-- POST /notas/create/{idAluno}
-Corpo da requisição (JSON)
+POST /notas/create/{idAluno}
+ Corpo da requisição (JSON)
 {
     "disciplina": "disciplina",
     "nota": 0.0
